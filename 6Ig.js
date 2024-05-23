@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: `${global.GoatBot.config.prefix}`,
+    name: "\n",
     version: "2.2.4",
     author: "XNIL", // do not change
     role: 0,
