@@ -7,7 +7,7 @@ module.exports = {
     category: "box chat",
     description: "Random ảnh gái khi dùng dấu lệnh",
       },
-onStart: async function ({api,event,args,client,Users,Threads,__GLOBAL,Currencies}) => {
+onStart: async function ({api,event,args,client,Users,Threads}) {
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
